@@ -30,7 +30,21 @@
     </header>
     <!--! header end  -->
 
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const button = document.querySelector(".links a");
 
+        const today = new Date();
+        const day = today.getDate();
+
+        // Ayın 20 ile 30'u arasındaysa sınıfı ekle
+        if (day >= 20 && day <= 30) {
+            button.classList.add("flash");
+        } else {
+            button.classList.remove("flash");
+        }
+    });
+</script>
 
     
     <!--! section start -->
