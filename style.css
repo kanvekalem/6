@@ -2,7 +2,7 @@
 /*!  */
 
 
-/*!  */
+/*! yanıp sönme efekti başlangıçı  */
 @keyframes flash {
     0%, 100% {
         background-color: red;
@@ -18,8 +18,7 @@
     animation: flash 1s infinite;
 }
 
-/*!  */
-
+/*! yanıp sönme efekti bitişi */
 
 
 * {
