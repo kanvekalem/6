@@ -151,6 +151,27 @@ nav .menu .menu-button:hover {
     background-color: transparent;
     color: black;
 }
+/* Sarı arka plan için yanıp sönme animasyonu */
+@keyframes blink-yellow {
+    0%, 100% {
+        background-color: yellow;
+    }
+    50% {
+        background-color: transparent;
+    }
+}
+
+/* Kırmızı arka plan için yanıp sönme animasyonu */
+@keyframes blink-red {
+    0%, 100% {
+        background-color: red;
+    }
+    50% {
+        background-color: transparent;
+    }
+}
+
+
 /*! üstdeki hatırlatma butonun css */
 
 
