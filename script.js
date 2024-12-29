@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Tarihe göre sınıf ekleme
     if (day >= 20 && day <= 23) {
         button.classList.add("sari");
-    } else if (day >= 25 && day <= 27) {
+    } else if (day >= 25 && day <= 30) {
         button.classList.add("kirmizi");
     } else {
         button.classList.add("default");
