@@ -121,6 +121,40 @@ nav .menu .menu-button:hover {
 }
 
 /*! section end  */
+/*! altdaki hatırlatma butonun css */
+.dashboard {
+    text-align: center;
+}
+
+.report-button {
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.report-button.sari {
+    background-color: yellow;
+    color: black;
+}
+
+.report-button.kirmizi {
+    background-color: red;
+    color: white;
+}
+
+.report-button.default {
+    background-color: transparent;
+    color: black;
+}
+/*! üstdeki hatırlatma butonun css */
+
+
+
 
 /*! responsive start */
 @media(max-width:576px) {
