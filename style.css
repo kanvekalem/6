@@ -1,3 +1,26 @@
+/*! @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap'); */
+/*!  */
+
+
+/*!  */
+@keyframes flash {
+    0%, 100% {
+        background-color: red;
+        color: white;
+    }
+    50% {
+        background-color: transparent;
+        color: red;
+    }
+}
+
+.flash {
+    animation: flash 1s infinite;
+}
+
+/*!  */
+
+
 
 * {
     margin: 0;
@@ -75,7 +98,7 @@ nav .menu .menu-button:hover {
     color: white;
 }
 
-/*! header end */
+
 
 /*! section start  */
 .content {
