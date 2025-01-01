@@ -1,4 +1,4 @@
-/*! @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap'); */
+/*! @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap'); border: 1px solid red; */
 /*!  */
 
 
@@ -69,7 +69,7 @@ nav ul {
 
 nav ul li a {
 
-border: 1px solid red;
+
     
     color: white;
     text-decoration: none;
