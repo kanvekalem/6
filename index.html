@@ -64,7 +64,26 @@ header, footer, article, nav, div {
   </header>
   <article id="mainArticle">Article</article>
   <nav id="mainNav">Nav</nav>
-  <div id="siteAds">Ads</div>
+      
+  <div id="siteAds">Ads
+      <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const button = document.querySelector(".links a");
+
+        const today = new Date();
+        const day = today.getDate();
+
+        // Ayın 20 ile 30'u arasındaysa sınıfı ekle
+        if (day >= 20 && day <= 31) {
+            button.classList.add("flash");
+        } else {
+            button.classList.remove("flash");
+        }
+    });
+</script>
+  <!--! yanıp sönme efekti bitişi  -->    
+  </div>
+      
   <footer id="pageFooter">Footer 
     
     //sonradan eklme baslangic
