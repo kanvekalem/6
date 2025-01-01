@@ -1,43 +1,42 @@
-<html >
-<head>
-    <style>
-        header {
-            background-color: #4caf50;
-            color: white;
-            text-align: center;
-            padding: 1em;
-        }
-        nav {
-            background-color: #333;
-            overflow: hidden;
-        }
-        main {
-            padding: 20px;
-        }
-        footer {
-            background-color: #4caf50;
-            color: white;
-            text-align: center;
-            padding: 1em;
-        }
-    </style>
-</head>
+<!DOCTYPE html>
+<title>My Example</title>
+<style>
+body { 
+  display: grid;
+  grid-template-areas: 
+    "header header header"
+    "nav article ads"
+    "footer footer footer";
+  grid-template-rows: 60px 1fr 60px;
+  grid-template-columns: 20% 1fr 15%;
+  grid-gap: 10px;
+  height: 100vh;
+  margin: 0;
+  }
+#pageHeader {
+  grid-area: header;
+}
+#pageFooter {
+  grid-area: footer;
+}
+#mainArticle { 
+  grid-area: article;      
+  }
+#mainNav { 
+  grid-area: nav; 
+  }
+#siteAds { 
+  grid-area: ads; 
+  }
+header, footer, article, nav, div {
+  padding: 20px;
+  background: gold;
+}
+</style>
 <body>
-    <header>
-        <h1>Styled Page</h1>
-    </header>
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">Services</a>
-        <a href="#">Contact</a>
-    </nav>
-    <main>
-        <h2>Welcome!</h2>
-        <p>This is a simple page.</p>
-    </main>
-    <footer>
-        <p>&copy; 2024 Styled Page</p>
-    </footer>
+  <header id="pageHeader">Header</header>
+  <article id="mainArticle">Article</article>
+  <nav id="mainNav">Nav</nav>
+  <div id="siteAds">Ads</div>
+  <footer id="pageFooter">Footer</footer>
 </body>
-
-</html>
