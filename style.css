@@ -68,6 +68,9 @@ nav ul {
 }
 
 nav ul li a {
+
+border: 1px solid red;
+    
     color: white;
     text-decoration: none;
     transition: color .25s ease;
@@ -137,9 +140,6 @@ nav .menu .menu-button:hover {
 }
 
 .content .links a:hover {
-    
-border: 1px solid red;
-
     
     background-color: #0ba2c0;
     color: white;
