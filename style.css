@@ -36,7 +36,8 @@ body {
 
 
 .container {
-    width: 80%;
+     /*! bu altdaki sağdan soldan daraltma */
+    width: 97%;
     margin: auto;
 }
 
@@ -125,7 +126,7 @@ nav .menu .menu-button:hover {
     display: flex;
     justify-content: center;
     margin-top: 48px;
-    column-gap: 20px;
+    column-gap: 25px;
           /*! bura büyük orta daki butonların yeri coumn gap birbirisi arasındaki mesafe  */
 }
 
@@ -160,10 +161,10 @@ nav .menu .menu-button:hover {
 /*! responsive start */
 @media(max-width:576px) {
     .container {
-        /*! bu altdakiler sağdan soldan daraltma */
-        width: 100%;
-        padding-left: 2px;
-        padding-right: 2px;
+        /*! bu alt belik 100 a */
+        width: 80%;
+        padding-left: 12px;
+        padding-right: 12px;
     }
 
     .menu ul {
