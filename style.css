@@ -106,7 +106,7 @@ nav .menu .menu-button:hover {
 .content {
     color: white;
     height: calc(100vh - 100px);
-    padding-top: 150px;
+    padding-top: 50px;
 }
 
 .content h1 {
