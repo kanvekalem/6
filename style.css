@@ -159,9 +159,10 @@ nav .menu .menu-button:hover {
 /*! responsive start */
 @media(max-width:576px) {
     .container {
+        /*! bu altdakiler sağdan soldan daraltma */
         width: 100%;
-        padding-left: 12px;
-        padding-right: 12px;
+        padding-left: 2px;
+        padding-right: 2px;
     }
 
     .menu ul {
@@ -195,7 +196,7 @@ nav .menu .menu-button:hover {
         
         
         padding: 14px;
-        width: 50%;
+        width: 90%;
     }
 }
 
