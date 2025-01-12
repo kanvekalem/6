@@ -125,7 +125,8 @@ nav .menu .menu-button:hover {
     display: flex;
     justify-content: center;
     margin-top: 48px;
-    column-gap: 16px;
+    column-gap: 20px;
+          /*! bura büyük orta daki butonların yeri coumn gap birbirisi arasındaki mesafe  */
 }
 
 .content .links a {
