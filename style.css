@@ -106,7 +106,8 @@ nav .menu .menu-button:hover {
 .content {
     color: white;
     height: calc(100vh - 100px);
-    padding-top: 50px;
+    padding-top: 20px;
+    /*! en üst tarafla arasındaki yükseklik  */
 }
 
 .content h1 {
@@ -130,13 +131,14 @@ nav .menu .menu-button:hover {
 .content .links a {
     background-color: white;
     padding: 20px;
-    width: 280px;
+    width: 100px;
     color: black;
     text-align: center;
     font-size: 18px;
     text-decoration: none;
     border-radius: 56px;
     transition: all .25s ease-in;
+      /*! arakaplanın gelis hizi butonlarda  */
 }
 
 .content .links a:hover {
